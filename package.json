@@ -1,0 +1,28 @@
+{
+  "name": "webhooks-server",
+  "version": "1.0.0",
+  "description": "A simple express server to handle Github webhooks.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ianzapolsky/webhooks-server.git"
+  },
+  "keywords": [
+    "git-server",
+    "git-hooks"
+  ],
+  "author": "Ian Zapolsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianzapolsky/webhooks-server/issues"
+  },
+  "homepage": "https://github.com/ianzapolsky/webhooks-server"
+  "dependencies": {
+    "express": "latest",
+    "underscore": "latest",
+    "body-parser": "latest"
+  }
+}
